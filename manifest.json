@@ -1,0 +1,32 @@
+{
+    "manifest_version": 2,
+    "name": "たぶキャプチャー",
+    "version": "1.0",
+    "description": "ブラウザの任意のタブをキャプチャーしてポップアップ画面で表示します。",
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "activeTab",
+        "storage"
+    ],
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "browser_action": {
+        "default_title": "",
+        "default_icon": "icon16.png",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": false
+    }
+}
