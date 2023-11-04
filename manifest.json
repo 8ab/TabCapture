@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "たぶキャプチャー",
     "version": "1.0",
     "description": "ブラウザの任意のタブをキャプチャーしてポップアップ画面で表示します。",
