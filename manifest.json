@@ -14,16 +14,14 @@
         "48": "icon48.png",
         "128": "icon128.png"
     },
-    "browser_action": {
+    "action": {
         "default_title": "",
         "default_icon": "icon16.png",
         "default_popup": "popup.html"
     },
     "background": {
-        "scripts": [
-            "background.js"
-        ],
-        "persistent": false
+        "service_worker": "service_worker.js",
+        "type": "module"
     },
     "options_ui": {
         "page": "options.html",
